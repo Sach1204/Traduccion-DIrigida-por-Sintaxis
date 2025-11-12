@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-# Front-end CLI: lee expresión, ejecuta EDTS y genera salidas en ./out
+
 
 import sys
 from edts_core import (
