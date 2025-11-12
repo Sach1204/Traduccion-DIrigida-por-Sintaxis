@@ -207,31 +207,8 @@ python3 app.py
 ```
 
 **Ejemplo:**
-```
-Expresión: x + 2 * 3
-Valor para x: 5
-Valor = 11.0
 
-AST:
-add(val=11.0)
-  id(name=x, val=5.0)
-  mul(val=6.0)
-    num(val=2.0)
-    num(val=3.0)
-
-== Tabla de símbolos ==
-x    tipo=num valor=5.0 ocurrencias=[(1,1)]
-
-Archivos generados en ./out
-```
-
-**Desde stdin:**
-```bash
-echo "2 + 3 * 4" | python3 app.py  # Resultado: 14.0
-echo "(2 + 3) * 4" | python3 app.py  # Resultado: 20.0
-```
-
----
+<img width="1797" height="967" alt="imagen" src="https://github.com/user-attachments/assets/7fd7d7ee-57eb-4e22-add5-7262dfbe65ed" />
 
 ## Archivos Generados (`./out`)
 
